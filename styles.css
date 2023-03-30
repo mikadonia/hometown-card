@@ -1,0 +1,97 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+img {
+    width: 100px;
+}
+
+.hero{
+    background-image: url("https://innopolis.com/local/styles/img/socimage.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+h1 {
+    background: #EFB0C9;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h2 {
+    background: #EFB0C9;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.acts {
+    margin-top: 0;
+    background-color: #bde0fe;
+}
+
+.act-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    width: 900px;
+    margin:auto;
+    padding: 60px 0px;
+}
+
+.act{
+
+    width: 200px;
+}
+
+h3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+#sport{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#uni{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#sunset{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.guide-card{
+    width: 425px;
+    margin: 30px  auto;
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #ffc8dd;
+    border-bottom: 10px solid #cdb4db;
+    border-radius: 6px;
+}
+
+.guideinfo{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+#avatar {
+    width: 200px;
+    margin: 25px 15px 25px 0px;
+}
